@@ -1,0 +1,589 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/poppins.ttf);
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(../fonts/bebas.ttf);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-header {
+    height: 25px;
+    width: 100%;
+    background-color: #da3d92;
+    border: 1px solid black;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #e090a5;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    height: 70px;
+    width: 230px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+.btn {
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.nav {
+    display: flex;
+
+}
+
+.contenedor-nav {
+    width: 1510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar-izq {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-bar-izq li a {
+    color: #000;
+}
+
+.nav-var-der {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-var-der li a {
+    color: #000;
+}
+
+.contacto:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.pagos-y-envios:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* --Main-- */
+.imagen-principal {
+    background-image: url(../img/gomitas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+}
+
+.frase {
+    font-family: "Bebas";
+    position: absolute;
+    top: 120px;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* Primer Articulo */
+
+.quienes-somos {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 31px;
+
+}
+
+.div-articulo-uno {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-articulo-uno {
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-parrafo-articulo {
+    width: 700px;
+    height: 270px;
+    padding-right: 30px;
+}
+
+.titulo-parrafo-articulo {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Segundo Articulo */
+
+.segundo-articulo {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 31px;
+}
+
+.div-articulo-dos {
+    width: 700px;
+    height: 500px;
+}
+
+.imagen-articulo-dos {
+    width: 100%;
+}
+
+.parrafo-articulo-dos {
+    font-family: "Poppins";
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #d3d9cd;
+    border-top: 1px solid #b1b9a9;
+}
+
+.footer-uno {
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 200px;
+    height: 70px;
+}
+
+.ul-footer li {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.contacto-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    word-spacing: 20px;
+}
+
+.contacto-footer ul li a {
+    color: #000;
+    text-decoration: underline;
+
+}
+
+.redes-footer {
+    font-size: 19px;
+}
+
+.iconos-footer {
+    position: relative;
+    top: 7px;
+}
+
+/* CATALOGO.HTML */
+
+.lista-filtros li {
+    display: block;
+    line-height: 30px;
+}
+
+.titulo-filtro {
+    font-family: "Poppins";
+    border-bottom: 1px solid black;
+}
+
+.filtros {
+    height: 270px;
+    width: 150px;
+}
+
+.filtro {
+    height: 270px;
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 20px;
+    background-color: beige;
+    border: 1px solid bisque;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-productos {
+    font-family: "Poppins";
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.tarjeta {
+    background-color: crimson;
+    width: 220px;
+    height: 290px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tarjeta-img {
+    width: 100%;
+    height: 170px;
+}
+
+.tarjeta-body {
+    padding: 10px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comprar-tarjeta {
+    padding: 6px;
+    background-color: #fff;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.contenedor-contenedor-productos {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 1540px;
+    position: relative;
+    bottom: 240px;
+}
+
+/* Contactanos */
+
+.titulo-contactanos {
+    padding-top: 70px;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+}
+
+.div-mapa {
+    margin-top: 4px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.map-border {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.contacto-form-center {
+    margin-top: 10px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-form {
+    background-color: #c9fdfb;
+    height: 650px;
+    width: 1190px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    padding-top: 10px;
+    width: 580px;
+    height: 650px;
+    font-family: "Poppins";
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    line-height: 40px;
+}
+
+.titulo-informacion {
+    text-align: center;
+    font-size: 26px;
+}
+
+.info p {
+    padding-left: 22px;
+}
+
+.info span {
+    padding-left: 5px;
+}
+
+.form {
+    padding-top: 10px;
+    width: 580px;
+    height: 650px;
+    font-family: "Poppins";
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.titulo-form {
+    text-align: center;
+    font-size: 26px;
+}
+
+.form-contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-contactanos,
+label,
+input {
+    margin: 5px;
+}
+
+.form-contactanos input {
+    width: 250px;
+    padding: 5px;
+}
+
+.label-titulo {
+    position: relative;
+    right: 88px;
+}
+
+.label-titulo-dos {
+    position: relative;
+    right: 47px;
+}
+
+#motivo {
+    width: 250px;
+    resize: none;
+}
+
+/* PAGOS Y ENVIOS */
+
+.titulo-pagos-envios {
+    padding-top: 70px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.seccion-envios {
+    font-family: "Poppins";
+}
+
+.contenedor-article {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.envios {
+    margin-top: 30px;
+    background-color: #E0AEB0;
+    height: 370px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.titulo-envios {
+    padding-top: 10px;
+}
+
+.titulo-pagos {
+    padding-top: 10px;
+}
+
+.parrafo-envios {
+    height: 300px;
+    width: 1150px;
+    font-size: 20px;
+}
+
+.seccion-pagos {
+    font-family: "Poppins";
+}
+
+.pagos {
+    background-color: #E0AEB0;
+    height: 370px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 10px;
+
+}
+
+.parrafo-pagos {
+    height: 300px;
+    width: 1150px;
+    font-size: 20px;
+}
+
+.contenedor-cajas {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* PERFIL */
+
+.seccion-perfil {
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 0 10px 30px #000;
+    border-radius: 20px;
+}
+
+.form-box h2 {
+    color: #000;
+    position: relative;
+    bottom: 70px;
+}
+
+.label-gmail {
+    position: absolute;
+    top: 429px;
+    left: 780px;
+    font-size: 20px;
+}
+
+.label-password {
+    position: absolute;
+    top: 500px;
+    left: 780px;
+    font-size: 20px;
+}
+
+#gmail,
+#password {
+    width: 300px;
+    margin: 20px;
+    padding: 6px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#recordar {
+    position: relative;
+    left: 7px;
+}
+
+.form-recordar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-enviar {
+    margin-top: 20px;
+    padding: 7px 27px;
+    font-family: "Poppins";
+}
+
+.registrar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

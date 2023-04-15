@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <div class="top-header"></div>
+    <header class="header">
+        <nav class="nav">
+            <figure>
+                <a href="../index.html" class="logo-link"><img src="../img/logo.png" alt="logo" class="logo"></a>
+            </figure>
+            <div class="contenedor-nav">
+                <div class="secciones-izq">
+                    <ul class="nav-bar-izq">
+                        <li><a href="../html/catalogo.html" class="btn">Catálogo</a></li>
+                        <li><a href="../html/contactanos.html" class="contacto">Contactanos</a></li>
+                        <li><a href="../html/pagos-y-envios.html" class="pagos-y-envios">Pagos y envios</a></li>
+                    </ul>
+                </div>
+                <div class="secciones-der"></div>
+                <ul class="nav-var-der">
+                    <li><a href="#" class="buscar"><ion-icon name="search-outline" size="large"></ion-icon></a></li>
+                    <li><a href="#" class="carrito"><ion-icon name="cart-outline" size="large"></ion-icon></a></li>
+                    <li><a href="../html/perfil.html" class="perfil"><ion-icon name="person-outline"
+                                size="large"></ion-icon></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="seccion-perfil">
+            <div class="form-box">
+                <h2>Iniciar sesion</h2>
+                <form class="form-perfil">
+                    <div class="form-gmail">
+                        <label for="gmail" class="label-gmail">Correo electronico</label>
+                        <input type="email" name="gmail" id="gmail" placeholder="Correo electronico">
+                    </div>
+                    <div class="form-password">
+                        <label for="password" class="label-password">Contraseña</label>
+                        <input type="password" name="password" id="password" placeholder="Contraseña">
+                    </div>
+                    <div class="form-recordar">
+                        <input type="checkbox" name="recordar" id="recordar">
+                        <label for="recordar">Recordar contraseña</label>
+                        <a href="#">Olvide mi contraseña</a>
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" class="btn-enviar">
+                    </div>
+                    <div class="registrar">
+                        <p>No tienes cuenta? <a href="#">Crea una</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-uno">
+            <figure><img src="../img/logo.png" alt="logo" class="logo-footer"></figure>
+            <ul class="ul-footer">
+                <li>Sarmiento XXX</li>
+                <li>xxxx@gmail.com</li>
+                <li>35121-XXXXX</li>
+            </ul>
+        </div>
+        <div class="contacto-footer">
+            <ul>
+                <li><a href="#" class="redes-footer"><ion-icon name="logo-instagram" size="large"
+                            class="iconos-footer"></ion-icon>Instagram</a></li>
+                <li><a href="#" class="redes-footer"><ion-icon name="logo-twitter" size="large"
+                            class="iconos-footer"></ion-icon>Twitter</a></li>
+                <li><a href="#" class="redes-footer"><ion-icon name="logo-facebook" size="large"
+                            class="iconos-footer"></ion-icon>Facebook</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Script para los iconos del nav :)  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
