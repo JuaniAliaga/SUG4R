@@ -105,6 +105,7 @@ nav {
     font-size: 4rem;
     width: 100%;
     text-align: center;
+    color: whitesmoke;
 }
 
 /* Primer Articulo */
@@ -175,6 +176,8 @@ nav {
     height: 200px;
     background-color: #d3d9cd;
     border-top: 1px solid #b1b9a9;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-uno {
@@ -201,7 +204,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -60px;
     word-spacing: 20px;
 }
 
