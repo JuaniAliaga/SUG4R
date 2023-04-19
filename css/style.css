@@ -136,6 +136,7 @@ nav {
 height: 350px;
 max-width: 912px;
 justify-self: center;
+box-shadow: 1px 1px 10px black;
 }
 
 .img-1 img {
@@ -147,6 +148,7 @@ justify-self: center;
 height: 350px;
 max-width: 912px;
 justify-self: center;
+box-shadow: 1px 1px 10px black;
 }
 
 .img-2 img {
@@ -165,7 +167,7 @@ font-size: 1.3rem;
 .footer {
     width: 100%;
     background-color: #d3d9cd;
-    border-top: 1px solid #b1b9a9;
+    border-top: 1.7px solid #b1b9a9;
     display: flex;
     justify-content: space-between;
 }
