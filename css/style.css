@@ -237,6 +237,7 @@ align-self: center;
     margin-top: 20px;
     margin-right: 1em;
     margin-bottom: 1.2em;
+    justify-content: center;
 }
 
 .tarjetas img {
