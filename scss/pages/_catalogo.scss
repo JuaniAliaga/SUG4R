@@ -1,0 +1,95 @@
+.titulo-producto{
+    div{
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+
+        h1{
+            font-family: "Poppins";
+        }
+    }
+}
+
+.ventas {
+    display: grid;
+    grid-template-columns: 300px auto ;
+
+    .filtros {
+        width: 150px;
+        height: 270px;
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 15px;
+        overflow: hidden;
+        justify-self: center;
+        margin-top: 20px;
+
+        h2{
+            text-decoration: underline;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+
+        li{
+            line-height: 30px;
+        }
+    }
+
+    .filtros-mobile{
+        display: none;
+
+        a{
+            color: black;
+        }
+    }
+
+    .tarjetas-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4em;
+        margin-top: 20px;
+        margin-right: 1em;
+        margin-bottom: 1.2em;
+        justify-content: center;
+
+        .tarjetas {
+            width: 220px;
+            height: 290px;
+            background-color: red;
+            border: 2px solid black;
+            border-radius: 20px;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                height: 170px;
+            }
+
+            .body-tarjeta {
+                padding: 10px;
+                height: 40%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                span{
+                    font-size: 1.2rem;
+                }
+            }
+
+            a{
+                align-self: center;
+                text-decoration: none;
+                font-size: 1rem;
+                border: 1px solid black;
+                background-color: whitesmoke;
+                border-radius: 20px;
+                padding: 7px;
+            }
+        }
+        
+    }
+}

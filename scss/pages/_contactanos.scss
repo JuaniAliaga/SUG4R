@@ -1,0 +1,96 @@
+.titulo-contactanos {
+    padding-top: 70px;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+}
+
+.div-mapa{
+    margin-top: 4px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+
+    div{
+        border: 1px solid black;
+        overflow: hidden;
+    }
+}
+
+.contacto-form-center {
+    margin-top: 10px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+    .contacto-form {
+        background-color: #c9fdfb;
+        height: 650px;
+        width: 1190px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+
+        .info {
+            padding-top: 10px;
+            width: 580px;
+            height: 650px;
+            font-family: "Poppins";
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+            line-height: 40px;
+
+            h3{
+                text-align: center;
+                font-size: 26px;
+            }
+
+            span{
+                padding-left: 5px;
+            }
+
+            p{
+                padding-left: 22px;
+            }
+        }
+
+        .form {
+            width: 580px;
+            height: 650px;
+            font-family: "Poppins";
+            border-left: 2px solid black;
+            border-bottom: 2px solid black;
+
+            h3{
+                text-align: center;
+                font-size: 26px;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                input{
+                    width: 250px;
+                    padding: 5px;
+                }
+
+                label{
+                    position: relative;
+                    right: 88px;
+                }
+
+                .label-titulo-dos {
+                    position: relative;
+                    right: 47px;
+                }
+
+                #motivo {
+                    width: 250px;
+                    resize: none;
+                }
+            }
+        }
+    }
+}

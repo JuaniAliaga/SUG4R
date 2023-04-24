@@ -1,0 +1,72 @@
+.imagen-principal {
+    background-image: url(../img/gomitas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    position: relative;
+
+    h1{
+        font-family: "Bebas";
+        position: absolute;
+        top: 120px;
+        font-size: 4rem;
+        width: 100%;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
+.informacion {
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+
+    .somos {
+        text-align: center;
+        align-self: center;
+        font-size: 1.3rem;
+        
+        h2{
+            font-size: 2.2rem;
+            text-decoration: underline;
+        }
+    }
+
+    .img-1 {
+        height: 350px;
+        max-width: 912px;
+        justify-self: center;
+        box-shadow: 1px 1px 10px black;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        }
+
+        .img-2 {
+            height: 350px;
+            max-width: 912px;
+            justify-self: center;
+            box-shadow: 1px 1px 10px black;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            }
+
+            .nosotros {
+                text-align: center;
+                align-self: center;
+                font-size: 1.3rem;
+                }
+}

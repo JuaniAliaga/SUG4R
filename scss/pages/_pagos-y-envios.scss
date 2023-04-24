@@ -1,0 +1,77 @@
+.titulo-pagos-envios {
+    padding-top: 70px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.contenedor-cajas {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .seccion-envios {
+        font-family: "Poppins";
+
+        .contenedor-article {
+            height: 400px;
+            display: flex;
+            justify-content: center;
+
+            article{
+                margin-top: 30px;
+                background-color: #E0AEB0;
+                height: 370px;
+                width: 1200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                border: solid 2px black;
+                border-radius: 10px;
+
+                h2{
+                    padding-top: 10px;
+                }
+
+                p{
+                    height: 300px;
+                    width: 1150px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .seccion-pagos {
+        font-family: "Poppins";
+
+        .contenedor-article {
+            height: 400px;
+            display: flex;
+            justify-content: center;
+
+            article{
+                background-color: #E0AEB0;
+                height: 370px;
+                width: 1200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                border: solid 2px black;
+                border-radius: 10px;
+
+                h2{
+                    padding-top: 10px;
+                }
+
+                p{
+                    height: 300px;
+                    width: 1150px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

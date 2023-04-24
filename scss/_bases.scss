@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/poppins.ttf);
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(../fonts/bebas.ttf);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,162 @@
+
+/* INDEX */
+
+
+/* Footer */
+
+
+/* CATALOGO.HTML */
+
+
+/* Contactanos */
+
+
+/* PAGOS Y ENVIOS */
+
+
+/* PERFIL */
+
+.seccion-perfil {
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 0 10px 30px #000;
+    border-radius: 20px;
+}
+
+.form-box h2 {
+    color: #000;
+    position: relative;
+    bottom: 70px;
+}
+
+.label-gmail {
+    position: absolute;
+    top: 429px;
+    left: 780px;
+    font-size: 20px;
+}
+
+.label-password {
+    position: absolute;
+    top: 500px;
+    left: 780px;
+    font-size: 20px;
+}
+
+#gmail,
+#password {
+    width: 300px;
+    margin: 20px;
+    padding: 6px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#recordar {
+    position: relative;
+    left: 7px;
+}
+
+.form-recordar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-enviar {
+    margin-top: 20px;
+    padding: 7px 27px;
+    font-family: "Poppins";
+}
+
+.registrar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* MEDIAS */
+
+@media (max-width:600px) {
+
+    .informacion {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+    }
+    
+    .nosotros {
+        grid-row: 3/4;
+    }
+    
+    .img-2 {
+        margin-bottom: 16px;
+    }
+
+    .footer-3 {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-uno{
+        align-items: flex-start;
+    }
+
+    .contacto-footer {
+        justify-content: flex-end;
+        margin-right: 5px;
+        border-top: 2px dashed black;
+    }
+
+    .ventas{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .filtros{
+        display: none;
+    }
+    
+    .filtros-mobile{
+        display: block;
+    }
+
+    .filtros-mobile{
+        grid-row: 1/2;
+        justify-self: center;
+    }
+
+    .tarjetas-grid{
+        grid-row: 2/3;
+        justify-self: center;
+        margin-left: 1em;
+    }
+}
+
+@media (max-width:295px){
+    .nav-izq{
+        flex-direction: column;
+    }
+}
