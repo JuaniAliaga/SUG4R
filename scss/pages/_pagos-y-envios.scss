@@ -2,7 +2,7 @@
     padding-top: 70px;
     margin-bottom: 7px;
     text-align: center;
-    font-family: "Poppins";
+    font-family: $tipografia-principal;
 }
 
 .contenedor-cajas {
@@ -11,7 +11,7 @@
     gap: 30px;
 
     .seccion-envios {
-        font-family: "Poppins";
+        font-family: $tipografia-principal;
 
         .contenedor-article {
             display: grid;
@@ -39,7 +39,7 @@
     }
 
     .seccion-pagos {
-        font-family: "Poppins";
+        font-family: $tipografia-principal;
 
         .contenedor-article {
             display: grid;

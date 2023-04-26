@@ -1,5 +1,5 @@
 .seccion-perfil {
-    font-family: "Poppins";
+    font-family: $tipografia-principal;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,7 @@
                 input{
                     margin-top: 20px;
                     padding: 7px 27px;
-                    font-family: "Poppins";
+                    font-family: $tipografia-principal;
                 }
             }
             

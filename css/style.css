@@ -148,6 +148,9 @@ header .navbar {
   font-size: 2.2rem;
   text-decoration: underline;
 }
+.informacion .somos p {
+  font-family: "Poppins";
+}
 .informacion .img-1 {
   height: 350px;
   max-width: 912px;
@@ -172,6 +175,9 @@ header .navbar {
   text-align: center;
   align-self: center;
   font-size: 1.3rem;
+}
+.informacion .nosotros p {
+  font-family: "Poppins";
 }
 
 .titulo-producto div {
