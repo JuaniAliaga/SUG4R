@@ -355,56 +355,48 @@ header .navbar {
   font-family: "Poppins";
 }
 .contenedor-cajas .seccion-envios .contenedor-article {
-  height: 400px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
 }
 .contenedor-cajas .seccion-envios .contenedor-article article {
   margin-top: 30px;
   background-color: #E0AEB0;
-  height: 370px;
-  width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   border: solid 2px black;
   border-radius: 10px;
+  grid-column: 2/3;
 }
 .contenedor-cajas .seccion-envios .contenedor-article article h2 {
   padding-top: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 .contenedor-cajas .seccion-envios .contenedor-article article p {
-  height: 300px;
-  width: 1150px;
   font-size: 20px;
+  padding: 0 1.2em;
 }
 .contenedor-cajas .seccion-pagos {
   font-family: "Poppins";
 }
 .contenedor-cajas .seccion-pagos .contenedor-article {
-  height: 400px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  margin-bottom: 2em;
 }
 .contenedor-cajas .seccion-pagos .contenedor-article article {
+  margin-top: 30px;
   background-color: #E0AEB0;
-  height: 370px;
-  width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   border: solid 2px black;
   border-radius: 10px;
+  grid-column: 2/3;
 }
 .contenedor-cajas .seccion-pagos .contenedor-article article h2 {
   padding-top: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 .contenedor-cajas .seccion-pagos .contenedor-article article p {
-  height: 300px;
-  width: 1150px;
   font-size: 20px;
+  padding: 0 1.2em;
 }
 
 .seccion-perfil {
