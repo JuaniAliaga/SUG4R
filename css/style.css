@@ -26,11 +26,21 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+}
 .footer .footer-uno {
   width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 600px) {
+  .footer .footer-uno {
+    align-items: flex-start;
+  }
 }
 .footer .footer-uno .logo-footer {
   width: 200px;
@@ -48,6 +58,13 @@ body {
   align-items: center;
   word-spacing: 20px;
 }
+@media (max-width: 600px) {
+  .footer .contacto-footer {
+    justify-content: flex-end;
+    margin-right: 5px;
+    border-top: 2px dashed black;
+  }
+}
 .footer .contacto-footer a {
   color: #000;
   text-decoration: underline;
@@ -56,6 +73,11 @@ body {
 .footer .contacto-footer .iconos-footer {
   position: relative;
   top: 7px;
+}
+@media (max-width: 600px) {
+  .footer .footer-3 {
+    display: none;
+  }
 }
 
 .top-header {
@@ -96,10 +118,13 @@ nav .container-fluid .navbar-nav li a {
 nav .container-fluid .navbar-nav li a:hover {
   color: white;
   text-decoration: underline;
+  transform: scale(1.12);
+  transition: 0.2s;
 }
 nav .container-fluid .contenedor-iconos {
   display: flex;
   gap: 1.5em;
+  margin-right: 7px;
 }
 nav .container-fluid .contenedor-iconos a {
   color: black;
@@ -139,6 +164,13 @@ header .navbar {
   grid-template-rows: repeat(2, 1fr);
   gap: 15px;
 }
+@media (max-width: 600px) {
+  .informacion {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+  }
+}
 .informacion .somos {
   text-align: center;
   align-self: center;
@@ -167,6 +199,11 @@ header .navbar {
   justify-self: center;
   box-shadow: 1px 1px 10px black;
 }
+@media (max-width: 600px) {
+  .informacion .img-2 {
+    margin-bottom: 16px;
+  }
+}
 .informacion .img-2 img {
   width: 100%;
   height: 100%;
@@ -175,6 +212,11 @@ header .navbar {
   text-align: center;
   align-self: center;
   font-size: 1.3rem;
+}
+@media (max-width: 600px) {
+  .informacion .nosotros {
+    grid-row: 3/4;
+  }
 }
 .informacion .nosotros p {
   font-family: "Poppins";
@@ -193,6 +235,12 @@ header .navbar {
   display: grid;
   grid-template-columns: 300px auto;
 }
+@media (max-width: 600px) {
+  .ventas {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+}
 .ventas .filtros {
   width: 150px;
   height: 270px;
@@ -206,6 +254,11 @@ header .navbar {
   justify-self: center;
   margin-top: 20px;
 }
+@media (max-width: 600px) {
+  .ventas .filtros {
+    display: none;
+  }
+}
 .ventas .filtros h2 {
   text-decoration: underline;
   padding-top: 0.5em;
@@ -216,6 +269,13 @@ header .navbar {
 }
 .ventas .filtros-mobile {
   display: none;
+}
+@media (max-width: 600px) {
+  .ventas .filtros-mobile {
+    display: block;
+    grid-row: 1/2;
+    justify-self: center;
+  }
 }
 .ventas .filtros-mobile a {
   color: black;
@@ -228,6 +288,13 @@ header .navbar {
   margin-right: 1em;
   margin-bottom: 1.2em;
   justify-content: center;
+}
+@media (max-width: 600px) {
+  .ventas .tarjetas-grid {
+    grid-row: 2/3;
+    justify-self: center;
+    margin-left: 1em;
+  }
 }
 .ventas .tarjetas-grid .tarjetas {
   width: 220px;
