@@ -49,30 +49,25 @@
 
     <main class="main">
         <section class="seccion-perfil">
-            <div class="form-box">
-                <h1>Iniciar sesion</h1>
-                <form class="form-perfil">
-                    <div class="form-gmail">
-                        <label for="gmail" class="label-gmail">Correo electronico</label>
-                        <input type="email" name="gmail" id="gmail" placeholder="Correo electronico">
+            <form class="form">
+                <h1 class="form-tittle">Iniciar Sesión</h1>
+                <p class="form-parrafo">¿Aún no tienes una cuenta? <a href="#" class="form-link">Entra aqui</a></p>
+
+                <div class="form-container">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-input" placeholder=" ">
+                        <label for="name" class="form-label">Nombre:</label>
+                        <span></span>
                     </div>
-                    <div class="form-password">
-                        <label for="password" class="label-password">Contraseña</label>
-                        <input type="password" name="password" id="password" placeholder="Contraseña">
+                    <div class="form-group">
+                        <input type="password" id="password" class="form-input" placeholder=" ">
+                        <label for="password" class="form-label">Contraseña:</label>
+                        <span></span>
                     </div>
-                    <div class="form-recordar">
-                        <input type="checkbox" name="recordar" id="recordar">
-                        <label for="recordar">Recordar contraseña</label>
-                        <a href="#">Olvide mi contraseña</a>
-                    </div>
-                    <div class="enviar">
-                        <input type="submit" class="btn-enviar">
-                    </div>
-                    <div class="registrar">
-                        <p>No tienes cuenta? <a href="#">Crea una</a></p>
-                    </div>
-                </form>
-            </div>
+
+                    <input type="submit" class="form-submit" value="Entrar">
+                </div>
+            </form>
         </section>
     </main>
 

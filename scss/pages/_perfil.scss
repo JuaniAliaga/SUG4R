@@ -5,85 +5,62 @@
     align-items: center;
     height: 100vh;
 
-    .form-box{
-        height: 500px;
-        width: 500px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid black;
-        box-shadow: 0 10px 30px #000;
-        border-radius: 20px;
+    .form{
+        padding: 4.5em 3em;
+        margin: 0 1.3em;
+        border-radius: 10px;
+        box-shadow: 0 7px 20px;
+        text-align: center;
 
-        h1{
-            color: #000;
-            position: relative;
+        &-tittle{
+            margin-bottom: .5em;
+
+            @include mobile(){
+                font-size: 2.2rem;
+            }
         }
 
-        form{
-            .form-gmail{
-                label{
-                    position: absolute;
-                    top: 429px;
-                    left: 780px;
-                    font-size: 20px;
-                }
+        &-container{
+            margin-top: 3em;
+            display: grid;
+            gap: 2.5em;
+
+            div{
+                position: relative;
 
                 input{
-                    width: 300px;
-                    margin: 20px;
-                    padding: 6px;
-                    border-radius: 5px;
-                    overflow: hidden;
-                }
-            }
-
-            .form-password{
-                label{
-                    position: absolute;
-                    top: 500px;
-                    left: 780px;
-                    font-size: 20px;
-                }
-
-                input{
-                    width: 300px;
-                    margin: 20px;
-                    padding: 6px;
-                    border-radius: 5px;
-                    overflow: hidden;
-                }
-            }
-
-            .form-recordar {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                input{
-                    position: relative;
-                    left: 7px;
-                }
-            }
-
-            .enviar {
-                display: flex;
-                justify-content: center;
-
-                input{
-                    margin-top: 20px;
-                    padding: 7px 27px;
+                    width: 100%;
+                    background: none;
+                    font-size: 1rem;
+                    padding: .6em .3em;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid black;
                     font-family: $tipografia-principal;
+
+                    &:focus + label, &:not(:placeholder-shown) + label{
+                        transform: translateY(-12px) scale(.7);
+                        transform-origin: top left;
+                        color: #3866f2;
+                    }
+                }
+
+                label{
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    left: 5px;
+                    transform: translateY(10px);
+                    transition: transform .5s;
                 }
             }
-            
-            .registrar {
-                margin-top: 20px;
-                display: flex;
-                justify-content: center;
 
-                
+            .form-submit{
+
+                font-size: 1rem;
+                padding: .8em 0;
+                border: none;
+                border-radius: .5em;
             }
         }
     }

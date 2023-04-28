@@ -479,69 +479,57 @@ header .navbar {
   align-items: center;
   height: 100vh;
 }
-.seccion-perfil .form-box {
-  height: 500px;
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  box-shadow: 0 10px 30px #000;
-  border-radius: 20px;
+.seccion-perfil .form {
+  padding: 4.5em 3em;
+  margin: 0 1.3em;
+  border-radius: 10px;
+  box-shadow: 0 7px 20px;
+  text-align: center;
 }
-.seccion-perfil .form-box h1 {
-  color: #000;
+.seccion-perfil .form-tittle {
+  margin-bottom: 0.5em;
+}
+@media (max-width: 600px) {
+  .seccion-perfil .form-tittle {
+    font-size: 2.2rem;
+  }
+}
+.seccion-perfil .form-container {
+  margin-top: 3em;
+  display: grid;
+  gap: 2.5em;
+}
+.seccion-perfil .form-container div {
   position: relative;
 }
-.seccion-perfil .form-box form .form-gmail label {
-  position: absolute;
-  top: 429px;
-  left: 780px;
-  font-size: 20px;
-}
-.seccion-perfil .form-box form .form-gmail input {
-  width: 300px;
-  margin: 20px;
-  padding: 6px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-.seccion-perfil .form-box form .form-password label {
-  position: absolute;
-  top: 500px;
-  left: 780px;
-  font-size: 20px;
-}
-.seccion-perfil .form-box form .form-password input {
-  width: 300px;
-  margin: 20px;
-  padding: 6px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-.seccion-perfil .form-box form .form-recordar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.seccion-perfil .form-box form .form-recordar input {
-  position: relative;
-  left: 7px;
-}
-.seccion-perfil .form-box form .enviar {
-  display: flex;
-  justify-content: center;
-}
-.seccion-perfil .form-box form .enviar input {
-  margin-top: 20px;
-  padding: 7px 27px;
+.seccion-perfil .form-container div input {
+  width: 100%;
+  background: none;
+  font-size: 1rem;
+  padding: 0.6em 0.3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
   font-family: "Poppins";
 }
-.seccion-perfil .form-box form .registrar {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
+.seccion-perfil .form-container div input:focus + label, .seccion-perfil .form-container div input:not(:placeholder-shown) + label {
+  transform: translateY(-12px) scale(0.7);
+  transform-origin: top left;
+  color: #3866f2;
+}
+.seccion-perfil .form-container div label {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  transition: transform 0.5s;
+}
+.seccion-perfil .form-container .form-submit {
+  font-size: 1rem;
+  padding: 0.8em 0;
+  border: none;
+  border-radius: 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
