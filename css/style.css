@@ -336,7 +336,7 @@ header .navbar {
 }
 
 .div-mapa {
-  margin-top: 4px;
+  margin: 4px 1em 0;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -530,6 +530,10 @@ header .navbar {
   padding: 0.8em 0;
   border: none;
   border-radius: 0.5em;
+}
+.seccion-perfil .form-recordar {
+  margin-top: 1em;
+  text-align: start;
 }
 
 /*# sourceMappingURL=style.css.map */

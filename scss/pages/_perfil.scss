@@ -56,12 +56,16 @@
             }
 
             .form-submit{
-
                 font-size: 1rem;
                 padding: .8em 0;
                 border: none;
                 border-radius: .5em;
             }
+        }
+
+        &-recordar{
+            margin-top: 1em;
+            text-align: start;
         }
     }
 }
