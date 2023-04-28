@@ -348,25 +348,19 @@ header .navbar {
 
 .contacto-form-center {
   margin-top: 10px;
-  height: 700px;
   display: flex;
   justify-content: center;
 }
 .contacto-form-center .contacto-form {
-  background-color: #c9fdfb;
-  height: 650px;
-  width: 1190px;
   border: 1px solid black;
   display: flex;
-  justify-content: space-between;
+  gap: 1em;
 }
 .contacto-form-center .contacto-form .info {
+  background-color: #c9fdfb;
   padding-top: 10px;
-  width: 580px;
-  height: 650px;
   font-family: "Poppins";
   border-right: 2px solid black;
-  border-bottom: 2px solid black;
   line-height: 40px;
 }
 .contacto-form-center .contacto-form .info h3 {
@@ -380,11 +374,10 @@ header .navbar {
   padding-left: 22px;
 }
 .contacto-form-center .contacto-form .form {
-  width: 580px;
-  height: 650px;
+  background-color: #c9fdfb;
+  padding: 0 9em;
   font-family: "Poppins";
   border-left: 2px solid black;
-  border-bottom: 2px solid black;
 }
 .contacto-form-center .contacto-form .form h3 {
   text-align: center;
@@ -411,7 +404,18 @@ header .navbar {
   width: 250px;
   resize: none;
 }
+.contacto-form-center .contacto-form .form form #enviar {
+  margin-bottom: 0.7em;
+}
 
+@media (max-width: 1200px) {
+  .contacto-form {
+    flex-direction: column;
+  }
+  .info {
+    border-bottom: 1px solid black;
+  }
+}
 .titulo-pagos-envios {
   padding-top: 70px;
   margin-bottom: 7px;
