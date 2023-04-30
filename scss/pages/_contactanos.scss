@@ -31,6 +31,7 @@
         .info {
             background-color: #c9fdfb;
             padding-top: 10px;
+            justify-content: center;
             font-family: $tipografia-principal;
             border-right: 2px solid black;
             line-height: 40px;
@@ -93,13 +94,62 @@
     }
 }
 
-@media(max-width:1200px){
+@media(max-width:1100px){
+    .contacto-form-center{
     .contacto-form{
         flex-direction: column;
+        width: 60%;
+
+        .form{
+            padding: 0 3em;
+            
+    
+            form{
+                align-items: normal;
+            
+            input{
+                width: auto;
+            }
+    
+            #motivo{
+                width: auto;
+            }
+    
+            label{
+                position: static;
+            }
+
+            .label-titulo-dos{
+                position: static;
+            }
+        }
+        }
+
+            .info{
+        border-bottom: 1px solid black;
+        align-items: center;
+    }
+    }
+}
+}
+
+@media (max-width:378px){
+
+    .contacto-form-center{
+        .contacto-form{
+                .form{
+        padding: 0 1px 0 0;
     }
 
-    .info{
-        border-bottom: 1px solid black;
-        
+        .info{
+
+        p{
+            padding-left: 0;
+            width: 100%;
+        }
+    
+        }
     }
+
+}
 }
