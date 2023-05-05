@@ -183,21 +183,15 @@ header .navbar {
 .informacion .somos p {
   font-family: "Poppins";
 }
-.informacion .img-paleta {
+.informacion .img-paleta, .informacion .img-chispita {
   height: 350px;
   max-width: 912px;
   justify-self: center;
   box-shadow: 1px 1px 10px black;
 }
-.informacion .img-paleta img {
+.informacion .img-paleta img, .informacion .img-chispita img {
   width: 100%;
   height: 100%;
-}
-.informacion .img-chispita {
-  height: 350px;
-  max-width: 912px;
-  justify-self: center;
-  box-shadow: 1px 1px 10px black;
 }
 @media (max-width: 600px) {
   .informacion .img-chispita {
@@ -475,19 +469,19 @@ header .navbar {
   display: grid;
   grid-template-columns: 1fr 7fr 1fr;
 }
-.contenedor-cajas .seccion-envios .contenedor-article article {
+.contenedor-cajas .seccion-envios .contenedor-article .envios {
   margin-top: 30px;
   background-color: #E0AEB0;
   border: solid 2px black;
   border-radius: 10px;
   grid-column: 2/3;
 }
-.contenedor-cajas .seccion-envios .contenedor-article article h2 {
+.contenedor-cajas .seccion-envios .contenedor-article .envios h2 {
   padding-top: 10px;
   text-align: center;
   text-decoration: underline;
 }
-.contenedor-cajas .seccion-envios .contenedor-article article p {
+.contenedor-cajas .seccion-envios .contenedor-article .envios p {
   font-size: 20px;
   padding: 0 1.2em;
 }

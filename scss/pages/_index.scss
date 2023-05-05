@@ -63,10 +63,7 @@
         }
 
         .img-chispita {
-            height: 350px;
-            max-width: 912px;
-            justify-self: center;
-            box-shadow: 1px 1px 10px black;
+            @extend .img-paleta;
 
             @include mobile(){
                 margin-bottom: 16px;
