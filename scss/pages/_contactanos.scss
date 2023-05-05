@@ -23,18 +23,17 @@
     justify-content: center;
 
     .contacto-form {
-        border: 1px solid black;
         display: flex;
         gap: 1em;
+        margin-bottom: .5em;
 
-
-        .info {
+        .informacion-form {
             background-color: #c9fdfb;
             padding-top: 10px;
             justify-content: center;
             font-family: $tipografia-principal;
-            border-right: 2px solid black;
             line-height: 40px;
+            border: 1px solid black;
 
             h3{
                 text-align: center;
@@ -50,11 +49,11 @@
             }
         }
 
-        .form {
+        .formulario-contacto {
             background-color: #c9fdfb;
             padding: 0 9em;
             font-family: $tipografia-principal;
-            border-left: 2px solid black;
+            border: 1px solid black;
 
             h3{
                 text-align: center;
