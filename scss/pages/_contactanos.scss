@@ -25,15 +25,16 @@
     .contacto-form {
         display: flex;
         gap: 1em;
-        margin-bottom: .5em;
+        margin-bottom: 1em;
 
-        .informacion-form {
+
+        .info {
             background-color: #c9fdfb;
             padding-top: 10px;
             justify-content: center;
             font-family: $tipografia-principal;
-            line-height: 40px;
             border: 1px solid black;
+            line-height: 40px;
 
             h3{
                 text-align: center;
@@ -49,7 +50,7 @@
             }
         }
 
-        .formulario-contacto {
+        .form {
             background-color: #c9fdfb;
             padding: 0 9em;
             font-family: $tipografia-principal;
